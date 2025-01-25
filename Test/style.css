@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-title {
+    text-align: center;
+    border: 2px solid #ffcc00;
+    background: linear-gradient(135deg, #117ecb, #117ecb); 
+    color: white; 
+    padding: 15px; 
+    border-radius: 10px;
+    margin: 20px 0; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+input, select {
+    padding: 5px;
+    border: 2px solid rgb(28, 91, 27); 
+    border-radius: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+input:hover {
+    background-color: rgb(211, 211, 211); 
+}
+
+#button {
+    background-color: rgb(240, 202, 252); 
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+    padding: 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    width: 100%;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+#button:hover {
+    background-color: rgb(32, 220, 11); 
+    transform: translateY(-2px); 
+}
+
+#button:active {
+    transform: translateY(0); 
+}
+
+
+#button:hover {
+    background-color: rgb(233, 178, 40); 
+}
+
+.box1 {
+    height: auto;
+    width: 900px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    background-color: rgb(251, 246, 250); 
+    color: rgb(240, 248, 255); 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#buttonAdd, #buttonRemove {
+    background-color: #c1babb; 
+    color: #ffffff; 
+    padding: 12px 20px; 
+    margin: 10px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    display: inline-block; 
+}
+
+#buttonAdd:hover {
+    background-color: #c1babb; 
+    transform: scale(1.05); 
+}
+
+#buttonRemove {
+    background-color: #c1babb; 
+}
+
+#buttonRemove:hover {
+    background-color: #c1babb; 
+    transform: scale(1.05); 
+}
+
+.form-buttons {
+    display: flex;   
+    margin-top: 20px; 
+}
+
+
+.button-container {
+    display: flex; 
+    margin-top: 20px; 
+}
+
+#buttonUpdate {
+    background-color: #a49ff5; 
+    color: white; 
+    padding: 12px 20px; 
+    margin: 5px;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+#buttonUpdate:hover {
+    background-color: #100b75; 
+    transform: scale(1.05); 
+}
+
+
+.box2 {
+    height: auto;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(100, 193, 246); 
+    color: rgb(240, 248, 255); 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box22a, .box22b {
+    width: 50%;
+    border: 1px solid rgb(238, 233, 233);
+    background-color: rgb(228, 236, 231); /* Light gray */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box3 {
+    height: auto;
+    width: auto;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(248, 249, 238); 
+    color: rgb(240, 248, 255); 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.box3 h2 {
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.token-list {
+    list-style-type: none; 
+    padding: 10px; 
+    margin: 10px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.token-list li {
+    text-align: left; 
+    padding: 5px; 
+    margin: 2px 0; 
+    background-color: transparent; 
+    color: black; 
+    border-radius: 0; 
+    transition: none; 
+}
+
+
+.token-list li:hover {
+    background-color: #357ab8; 
+}
+
+
+main {
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+    gap: 6px;
+}
+
+.section2 {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+i {
+    color: rgb(255, 255, 255); 
+    height: auto;
+    width: auto;
+    margin: 10px;
+    height: 20px;
+}
+
+i:hover {
+    color: rgb(0, 0, 255); 
+}
+
+
+
